@@ -18,7 +18,7 @@ jobs:
         run: test -f index.html
 
       - name: Run test
-        run: exit 1
+        run: Exit 1
 
       - name: Build
         run: echo "Build completed successfully"
